@@ -27,13 +27,20 @@
       "pre-commit": "tsdx lint"
     }
   },
+  "bugs": {
+    "url": "https://github.com/wpkyoto/react-magic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpkyoto/react-magic.git"
+  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-magic",
+  "name": "@wpkyoto/react-magic",
   "author": "Hidetaka Okamoto",
   "module": "dist/react-magic.esm.js",
   "size-limit": [
@@ -57,5 +64,8 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.0.3",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "magic-sdk": "^4.0.2"
   }
 }
