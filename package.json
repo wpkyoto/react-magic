@@ -40,6 +40,9 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "name": "@wpkyoto/react-magic",
   "author": "Hidetaka Okamoto",
   "module": "dist/react-magic.esm.js",
